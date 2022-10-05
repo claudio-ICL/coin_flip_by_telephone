@@ -26,12 +26,12 @@ public:
   string write_head_or_tail();
 
 protected:
-  ZZ x;  // 1<x<n suche that gcd(x,n) = 1
+  ZZ x;  // 1<x<n such that gcd(x,n) = 1
   ZZ x0; // square of x
-  ZZ x1; // suqare of x0
+  ZZ x1; // square of x0
   ZZ n;  // Blum integer
-  ZZ p;  // first factor of n
-  ZZ q;  // second factor of n
+  ZZ p;  // first prime factor of n
+  ZZ q;  // second prime factor of n
   void test();
   void set_head_or_tail();
   bool _guess;
